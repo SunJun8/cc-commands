@@ -23,7 +23,7 @@ To create a commit, simply enter:
 5. Analyze diffs to determine if there are multiple distinct logical changes
 6. If multiple distinct changes are detected, suggest splitting the commit into smaller commits
 7. Create commit messages using conventional commit format for each commit (or a single commit if not split)
-8. Ask the user for the `JIRA-ID` to fill in, directly inserting it based on user feedback $ARGUMENTS
+8. **Mandatory Route**: Ask the user whether they need to fill in the `JIRA-ID`, and based on the user's feedback $ARGUMENTS, choose to fill it in or skip.
 
 ## Commit Best Practices
 
