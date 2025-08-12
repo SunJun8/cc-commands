@@ -39,6 +39,7 @@ To create a commit, simply enter:
   - `test`: Adding or fixing tests
   - `chore`: Changes to build processes, tools, etc.
 - **Present Tense, Imperative Mood**: Write commit messages as commands (e.g., "Add feature" instead of "Added feature")
+- **Enforce Sign-off**: Force adding the -s parameter when committing, using the git repository's default user.name to set `Signed-off-by`
 
 ## Format Specifications
 
